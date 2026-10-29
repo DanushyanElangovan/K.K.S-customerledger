@@ -1,0 +1,17 @@
+<resources>
+    <color name="primary">#4CC9A8</color>
+    <color name="on_primary">#06241D</color>
+    <color name="primary_soft">#17332C</color>
+    <color name="background">#0D1513</color>
+    <color name="surface">#16211E</color>
+    <color name="ink">#E7EEEB</color>
+    <color name="muted">#92A49E</color>
+    <color name="line">#263631</color>
+    <color name="warn">#F0B35A</color>
+    <color name="warn_bg">#3A2A10</color>
+    <color name="bad">#FF958A</color>
+    <color name="bad_bg">#3B1A17</color>
+    <color name="good">#6FD49A</color>
+    <color name="good_bg">#14301F</color>
+    <color name="neutral_bg">#212F2B</color>
+</resources>

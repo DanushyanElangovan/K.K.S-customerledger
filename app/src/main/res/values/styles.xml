@@ -1,0 +1,67 @@
+<resources>
+    <!-- Reusable looks. Change them here and every screen follows. -->
+    <style name="LedgerCard" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="strokeColor">@color/line</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <style name="LedgerTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="LedgerSection">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+    <style name="LedgerName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="LedgerSub">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+    <style name="LedgerAmount">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="LedgerChip">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:background">@drawable/bg_chip_neutral</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+    <style name="LedgerSmallButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HeroLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:alpha">0.85</item>
+    </style>
+    <style name="HeroValue">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/on_primary</item>
+    </style>
+</resources>
